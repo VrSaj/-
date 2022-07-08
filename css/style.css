@@ -193,10 +193,18 @@ h1{
     margin-right: 30px;
 }
 
+.card-title{
+    text-align: center;
+}
+
+.card-text{
+    text-align: center;
+}
+
 .left{
     margin-left: auto;
 }
 
-.center{
-    margin: auto;
+.f1{
+    position: absolute;
 }
