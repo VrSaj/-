@@ -21,53 +21,64 @@
 .btn-menu{
     background:linear-gradient(180deg,#19a5af,#000000)
 }
+
 a:hover {
     color: #acc711;
 }
+
 .btn-menu.active{
     background:linear-gradient(180deg,#16deeb,#000000)
 }
+
 .color{
     color: white;
     font-family: 18pt 'Oswald', sans-serif;
 }
+
 .btn-container{
     background: black;
 }
+
 .logo{
     height: 120px;
     width: 200px;
     padding: 5px;
     margin: 5px;
 }
+
 .btn{
     height: 35px;
     width: 170px;
     float: right;
 }
-h2{
+
+h3{
     color:rgb(212, 209, 209);
     text-align: center;
     font-family: jura;
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 .hit{
     height: 150px;
     width: 225px;
 }
+
 .hit2{
     height: 150px;
     width: 350px;
     color: white;
     font-family: jura;
 }
+
 .hit3{
     height: 150px;
     width: 425px;
     color: white;
     font-family: jura;
 }
+
 .market{
     height: 150px;
     width: 235px;
@@ -97,6 +108,7 @@ h2{
     background-size: 400%;
     animation: animate 30s linear infinite;
 }
+
 .gradient::after{
     filter: blur(25px);
 }
@@ -122,14 +134,13 @@ h2{
 .carousel-item{
     padding-left: 200px;
 }
+
 .fot{
     height: 6%;
     width: 6%;
-    margin-left: 170px;
-    margin-right: 170px;
-    margin-bottom: 50px;
-    margin-top: 50px;
+    margin: auto;
 }
+
 .text{
     height: auto;
     width: auto;
@@ -138,11 +149,13 @@ h2{
     text-align: right;
     padding-bottom: 15px;
 }
+
 .img{
     float:left;
     width: 623px;
     height: 370px;
 }
+
 h1{
     color:rgb(223, 223, 223);
     text-align: center;
@@ -152,10 +165,12 @@ h1{
     padding-bottom: 30px;
     padding-top: 30px;
 }
+
 .player{
     width: 205px;
     height: 200px;
 }
+
 .imge{
     float:left;
     width: 623px;
@@ -172,9 +187,16 @@ h1{
 }
 
 .ll{
-    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left:30px ;
+    margin-right: 30px;
 }
 
 .left{
     margin-left: auto;
+}
+
+.center{
+    margin: auto;
 }
