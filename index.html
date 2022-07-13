@@ -21,45 +21,60 @@
     <title>Next Buy</title>
   </head>
   <body>
-    <h1>Поиск</h1>
-    <h1>Жанры</h1>
-    <h1>Активация</h1>
-    <nav class="nav nav-pills nav-fill">
-      <a><form>
-        <p><input type="search" name="q" placeholder="Поиск по сайту"> 
-        <input type="submit" value="Найти"></p>
-       </form></a>
-    </nav>
-    <div class="dropdown">
-      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Dropdown button
-      </button>
-      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-        <a class="dropdown-item" href="#">Action</a>
-        <a class="dropdown-item" href="#">Another action</a>
-        <a class="dropdown-item" href="#">Something else here</a>
-      </div>
-    </div><div class="dropdown">
-      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Dropdown button
-      </button>
-      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-        <a class="dropdown-item" href="#">Action</a>
-        <a class="dropdown-item" href="#">Another action</a>
-        <a class="dropdown-item" href="#">Something else here</a>
-      </div>
-    </div><div class="dropdown">
-      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Dropdown button
-      </button>
-      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-        <a class="dropdown-item" href="#">Action</a>
-        <a class="dropdown-item" href="#">Another action</a>
-        <a class="dropdown-item" href="#">Something else here</a>
-      </div>
-    </div>
+    <div id="all-in-cases-filters" data-pjax-container="" data-pjax-push-state="">
+      <form id="all-in-cases-filter-form" class="dark" action="/" method="get" data-pjax="">
+          <div class="row">
+              <div class="col-sm-4">
+                  <h5 class="form-label">Поиск</h5>
+                  <div class="search-form">
+                      
+      <input type="text" id="casessearch-title" class="quicksearch" name="CasesSearch[title]" placeholder="Поиск по названию">
+                      <button type="submit" class="search"><i class="fa fa-search" aria-hidden="true"></i>
+                      </button>
+                  </div>
+              </div>
+              <div class="col-sm-2">
+                  <h5 class="form-label">Жанры</h5>
+                  
+      <select id="casessearch-genre" class="select2-hidden-accessible" name="CasesSearch[genre]" tabindex="-1" aria-hidden="true">
+      <option value="">Все</option>
+      <option value="1">Экшен</option>
+      <option value="3">Стратегия</option>
+      <option value="4">Приключение</option>
+      <option value="5">Инди</option>
+      <option value="6">Казуальная игра</option>
+      <option value="7">Гонки</option>
+      <option value="8">Ролевая игра</option>
+      <option value="9">Насилие</option>
+      <option value="10">Мясо</option>
+      <option value="11">Ранний доступ</option>
+      <option value="12">Симулятор</option>
+      <option value="13">Спортивная игра</option>
+      <option value="14">ММО</option>
+      <option value="31">Шутер</option>
+      </select><span class="select2 select2-container select2-container--default" dir="ltr" style="width: 142px;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-casessearch-genre-container"><span class="select2-selection__rendered" id="select2-casessearch-genre-container" title="Все"></span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+              </div>
+              <div class="col-sm-2">
+                  <h5 class="form-label">Активация</h5>
+                  
+      <select id="casessearch-activation" class="select2-hidden-accessible" name="CasesSearch[activation]" tabindex="-1" aria-hidden="true">
+      <option value="">Все</option>
+      <option value="1">Steam</option>
+      <option value="2">Origin</option>
+      <option value="3">Microsoft Store</option>
+      <option value="4">Battle.net</option>
+      <option value="5">Epic Games</option>
+      <option value="7">UPLAY PC</option>
+      <option value="8">Social Club</option>
+      </select><span class="select2 select2-container select2-container--default" dir="ltr" style="width: 142px;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-casessearch-activation-container"><span class="select2-selection__rendered" id="select2-casessearch-activation-container" title="Все"></span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+              </div>
+              
+              
+      
+      </form></div>
   </body>
-  <main class="did"> 
+  <main class="did">
+     
     <div class="container row row-cols-6 l">
     <div class="card ll">
       <img class="card-img-top" src="YES/CyberPunk.jpg" alt="Card image cap">
