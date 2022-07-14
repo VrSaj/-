@@ -1,9 +1,9 @@
 .did{
-    background-color: #262121;
+    background-color: #4d4d4d;
 }
 
 .ded{
-background: linear-gradient(180deg, rgb(0, 0, 0) 5.5%, rgb(255, 255, 255) 1%);
+background-color: black;
 }
 
 .par{
@@ -176,6 +176,13 @@ h1{
 .ll{
     margin-top: 15px;
     margin-bottom: 15px;
+    margin-left:30px ;
+    margin-right: 30px;
+}
+
+.lll{
+    margin-top: 30px;
+    margin-bottom: 30px;
     margin-left:30px ;
     margin-right: 30px;
 }
