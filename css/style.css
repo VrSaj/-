@@ -1,21 +1,15 @@
 .did{
-    background: linear-gradient(180deg, #000000, #490d5c, #03034b, #000000);
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+    background-color: #262121;
 }
 
 .ded{
-    background: linear-gradient(180deg, #000000, #490d5c, #03034b, #000000);
-    justify-content: center;
-    align-items: center;
+background: linear-gradient(180deg, rgb(0, 0, 0) 5.5%, rgb(255, 255, 255) 1%);
 }
 
-.dyd{
-    background: linear-gradient(180deg, #000000, #490d5c, #03034b, #000000);
-    justify-content: center;
-    align-items: center;
-    height: 1000px;
+.fot{
+height: 200px;
+width: 100%;
+background-color: #000000;
 }
 
 .btn-menu{
@@ -51,12 +45,8 @@ a:hover {
     width: 185px;
 }
 
-h3{
-    color:rgb(212, 209, 209);
-    text-align: center;
-    font-family: jura;
-    margin-top: 20px;
-    margin-bottom: 20px;
+h5{
+    color:rgb(255, 255, 255);
 }
 
 .hit{
