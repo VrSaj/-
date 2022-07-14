@@ -72,56 +72,6 @@ h5{
     color: white;
 }
 
-.gradient{
-    height: 150px;
-    width: 1000px;
-    background: linear-gradient();
-    position: relative;
-    border-radius: 5px;
-    z-index: 1;
-}
-
-.gradient::before,
-.gradient::after{
-    content: "";
-    position: absolute;
-    top: -2px;
-    left: -2px;
-    background: linear-gradient(45deg,#fb0092,#0000ff,#00ff00,#ffff00,#ff0000,#fb0092,#0000ff,#00ff00,#ffff00,#ff0000);
-    width: calc(100% + 4px);
-    height: calc(100% + 4px);
-    z-index: -1;
-    border-radius: 5px;
-    background-size: 400%;
-    animation: animate 30s linear infinite;
-}
-
-.gradient::after{
-    filter: blur(25px);
-}
-
-@keyframes animate{
-    0%{
-        background-position:0 300px;
-    }
-    50%{
-        background-position:900px 0;
-    }
-    100%{
-        background-position:0 300px;
-    }
-}
-
-/* Make the image fully responsive */
-.carousel-inner img {
-    width: 80%;
-    height: 450px;
-}
-
-.carousel-item{
-    padding-left: 200px;
-}
-
 .fot{
     height: 6%;
     width: 6%;
@@ -213,4 +163,17 @@ h1{
     flex-wrap: wrap;
     margin-right: calc(var(--bs-gutter-x)/ -2);
     margin-left: calc(var(--bs-gutter-x)/ -2);
+}
+
+.menu{
+    position: fixed;
+    right: 10px;
+    top: 90%;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #333;
+}
+
+.text{
+    height: 300px;
 }
