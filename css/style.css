@@ -6,10 +6,8 @@
 background: linear-gradient(180deg, rgb(0, 0, 0) 5.5%, rgb(255, 255, 255) 1%);
 }
 
-.fot{
-height: 200px;
-width: 100%;
-background-color: #000000;
+.par{
+position: relative;
 }
 
 .btn-menu{
@@ -196,6 +194,9 @@ h1{
 
 .f1{
     position: absolute;
+    bottom: -10px;
+    left: 10%;
+    width: 80%;
 }
 
 .row{
